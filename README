@@ -1,1 +1,10 @@
+Simple program to simulate client/server interaction.
+
+
+1.Client initiates a UDP connection with the server and handshakes using request code that is passed into the server as an argument.
+2.After authorizing the user, server creates a TCP socket and send its port number via UDP connection back to the client.
+3.Client receives the port number and sends a message to the server using TCP.
+4.Server reverses the message and sends it back to the Client. The client receives the inverted message.
+
+Makefile version-->
 GNU Make 3.81
